@@ -27,4 +27,10 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl start Jenkins
 $ sudo systemctl enable Jenkins
 $ sudo systemctl status Jenkins
+
+# Now Verify by hitting below url on browser
+$ http://<ec2-public-ip>:8080
+
+# Password can be found in below location
+$ cat /var/lib/jenkins/secrets/initialAdminPassword
 ----------------------------------------------------------------------
